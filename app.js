@@ -26,7 +26,7 @@ app.use(cors())
 //mongoconnection
 database.mongoConnect();
 
-// Router
+// Routers
 
 //app.use('/usuarios', usuariosRouter);
 //app.use(auth);
