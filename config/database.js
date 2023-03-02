@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const host = "localhost";
 const port = "27017";
 const db = "dasansor";
+const BASE_URL = process.env.BASE_URL;
 
 exports.mongoConnect = () => {
     const mongoStringConnection = `mongodb://${host}:${port}/${db}`;
