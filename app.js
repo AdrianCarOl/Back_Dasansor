@@ -8,6 +8,7 @@ var database = require("./config/database");
 
 var auth = require("./auth/main_auth");
 var cors = require ('cors')
+var PORT   = process.env.PORT || 6010;
 
 
 var ejecucionesRouter = require("./routes/ejecuciones.router");
