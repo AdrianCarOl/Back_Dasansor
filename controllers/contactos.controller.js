@@ -21,7 +21,7 @@ exports.create = function (req, res) {
     }
 
     (response.exito = true),
-      (response.msg = "Tu informacion fue recibida y pronto te estaremos contactano!!! ");
+      (response.msg = "Tu informacion fue recibida y pronto te estaremos contactano!! ");
     res.json(response);
     
   });
