@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 
-const host = "localhost";
+//const host = "localhost";
+const host = "bddasansor.fggb4og.mongodb.net";
 const port = "27017";
 const db = "dasansor";
 
