@@ -6,7 +6,8 @@ const port = "27017";
 const db = "dasansor";
 
 exports.mongoConnect = () => {
-    const mongoStringConnection = `mongodb://${host}:${port}/${db}`;
+    //const mongoStringConnection = `mongodb://${host}:${port}/${db}`;
+    const mongoStringConnection = `mongodb+srv://AdrianBD:<password>@bddasansor.fggb4og.mongodb.net`;
 
     mongoose.connect(mongoStringConnection);
     mongoose.Promise = global.Promise;
