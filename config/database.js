@@ -1,12 +1,12 @@
 const mongoose = require("mongoose");
 
 //const host = "localhost";
-const DB_USER = "admin";
-const DB_PASSWORD = "admindasansor";
+const DB_USER = "mongo";
+const DB_PASSWORD = "PKo7F0i3nCipiVQsZ8G0";
 const API_VERSION = "V1";
 const IP_SERVER = "localhost";
-const host = "bddasansor.fggb4og.mongodb.net";
-const port = "27017";
+const host = "mongodb://mongo:PKo7F0i3nCipiVQsZ8G0@containers-us-west-23.railway.app:5733";
+const port = "5733";
 const db = "dasansor";
 
 /*
